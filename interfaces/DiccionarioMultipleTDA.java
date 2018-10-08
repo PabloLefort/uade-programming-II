@@ -22,7 +22,7 @@ public interface DiccionarioMultipleTDA {
   void EliminarValor(int clave, int valor);
 
   // Retorna el conjunto de valores segun una clave. En caso de no existir la
-  // clave retoran un conjunto vacio
+  // clave retorna un conjunto vacio
   // PRE: diccionario inicializado
   // POS: -
   ConjuntoTDA Recuperar(int clave);
